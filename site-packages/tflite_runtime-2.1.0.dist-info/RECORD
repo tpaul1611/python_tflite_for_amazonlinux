@@ -1,0 +1,12 @@
+tflite_runtime/__init__.py,sha256=mXrio4HbnlhNGQWwuDwXL3dpYZAor9lnxVhHZZ51iZA,66
+tflite_runtime/_interpreter_wrapper.cpython-37m-x86_64-linux-gnu.so,sha256=dOz2trD0zNQOLLyogQ9aLTtdmBsRC_lqReISgRBpVh0,5764184
+tflite_runtime/interpreter.py,sha256=rvVBcaDnpyFl_Y2vVGRiZlrrF80P48agpCUXCCkY99k,20581
+tflite_runtime/interpreter_wrapper.py,sha256=ERzpyuXEEgapKT-tjOvLLjYqyAdYKW027qqfp-qfbqM,7237
+tflite_runtime-2.1.0.dist-info/METADATA,sha256=lYSETVeP4deVicaSCuvU9l5aCqlL6Bvs_LGBtEppPY4,1472
+tflite_runtime-2.1.0.dist-info/WHEEL,sha256=9cGxwQ3tTT7GAsdHCPGqLi61DXGpJWVkLren3MQuD0k,104
+tflite_runtime-2.1.0.dist-info/top_level.txt,sha256=uNbSt_JkE5qb43UeqR4Wx6_Y6A5613g6gtS49welF08,15
+tflite_runtime-2.1.0.dist-info/RECORD,,
+tflite_runtime-2.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+tflite_runtime/__pycache__/__init__.cpython-37.pyc,,
+tflite_runtime/__pycache__/interpreter.cpython-37.pyc,,
+tflite_runtime/__pycache__/interpreter_wrapper.cpython-37.pyc,,
