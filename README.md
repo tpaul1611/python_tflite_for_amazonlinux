@@ -9,7 +9,7 @@ The second *pip3 install* of the dockerfile might change with future versions.
 
 ### Dockerfile
 
-Create this Dockerfile
+Create this Dockerfile (also available in the repo).
 
     FROM amazonlinux
 
