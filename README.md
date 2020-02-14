@@ -41,3 +41,8 @@ In the directory where you ran the commands there should now be a folder called 
 
 Warning: These packages will probably not work with other linux distributions or other architectures than amazonlinux. They are specificly created for amazonlinux.
 
+### Sources
+
+https://www.tensorflow.org/lite/guide/python
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/tools/pip_package
+And probably many more :D 
