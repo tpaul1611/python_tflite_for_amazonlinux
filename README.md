@@ -4,12 +4,12 @@ In this repo everything is provided to create the python dependencies nessessary
 
 ## Guide
 
-First we create our docker image with the dockerfile below. The creation of this image already does all the work.
-The second *pip3 install* of the dockerfile might change with future versions.
+First if you dont already have it, install Docker. https://www.docker.com/
 
 ### Dockerfile
 
-Create this Dockerfile (also available in the repo).
+Then create this Dockerfile (also available in the repo).
+The second *pip3 install* of the dockerfile might change with future versions.
 
     FROM amazonlinux
 
@@ -23,12 +23,12 @@ Create this Dockerfile (also available in the repo).
         cd tensorflow && \
         sh tensorflow/lite/tools/pip_package/build_pip_package.sh && \
         pip3 install /tmp/tflite_pip/python3/dist/tflite_runtime-2.1.0-cp37-cp37m-linux_x86_64.whl
-      
+
     CMD tail -f /dev/null
 
 ### Commands
 
-Run the following commands in the same directory where you created the Dockerfile
+Run the following commands in the same directory where you created the Dockerfile.
 
     docker build -t tflite_amazonlinux .
     docker run -d --name=tflite_amazonlinux tflite_amazonlinux
