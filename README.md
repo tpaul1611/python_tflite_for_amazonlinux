@@ -1,1 +1,1 @@
-# python_tflite_for_amazonlinux
+# Python TensorFlow Lite for amazonlinux
