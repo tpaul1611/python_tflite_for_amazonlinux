@@ -4,7 +4,7 @@ In this repo everything is provided to create the python dependencies nessessary
 
 ## Guide
 
-First if you dont already have it, install Docker. https://www.docker.com/
+First, if you dont already have it, install Docker. https://www.docker.com/
 
 ### Dockerfile
 
