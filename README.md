@@ -15,14 +15,13 @@ The second *pip3 install* of the dockerfile might change with future versions.
 
     WORKDIR /tflite
 
-    RUN yum groupinstall -y development && \
-        yum install -y python3.7 && \
-        yum install -y python3-devel && \
-        pip3 install numpy wheel && \
-        git clone https://github.com/tensorflow/tensorflow.git && \
-        cd tensorflow && \
-        sh tensorflow/lite/tools/pip_package/build_pip_package.sh && \
-        pip3 install /tmp/tflite_pip/python3/dist/tflite_runtime-2.1.0-cp37-cp37m-linux_x86_64.whl
+    RUN yum groupinstall -y development
+    RUN yum install -y python3.7
+    RUN yum install -y python3-devel
+    RUN pip3 install numpy wheel
+    RUN git clone https://github.com/tensorflow/tensorflow.git
+    RUN sh ./tensorflow/tensorflow/lite/tools/pip_package/build_pip_package.sh
+    RUN pip3 install tensorflow/tensorflow/lite/tools/pip_package/gen/tflite_pip/python3/dist/tflite_runtime-2.1.0-cp37-cp37m-linux_x86_64.whl
 
     CMD tail -f /dev/null
 
